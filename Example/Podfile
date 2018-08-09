@@ -1,0 +1,6 @@
+use_frameworks!
+target 'arrShuffler_Tests' do
+  pod 'arrShuffler', :path => '../'
+  
+  
+end
