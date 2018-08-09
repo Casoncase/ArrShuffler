@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Extention to shuffle any type of arrays.
+Extension to shuffle any type of arrays.
                        DESC
 
   s.homepage         = 'https://github.com/Casoncase/arrShuffler'
