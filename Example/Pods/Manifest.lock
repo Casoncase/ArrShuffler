@@ -1,0 +1,16 @@
+PODS:
+  - arrShuffler (0.1.0)
+
+DEPENDENCIES:
+  - arrShuffler (from `../`)
+
+EXTERNAL SOURCES:
+  arrShuffler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  arrShuffler: da97024d65a73813188923aae58a6af6707666f7
+
+PODFILE CHECKSUM: d485474e56641cacaaec74af622b2bf97d86efa0
+
+COCOAPODS: 1.5.3

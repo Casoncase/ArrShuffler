@@ -1,0 +1,22 @@
+{
+  "name": "arrShuffler",
+  "version": "0.1.0",
+  "summary": "A short description of arrShuffler.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Casoncase/arrShuffler",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Casoncase": "cason_san@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Casoncase/arrShuffler.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "arrShuffler/Classes/**/*"
+}
