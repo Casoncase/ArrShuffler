@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ArrShuffler'
+  s.name             = 'arrShuffler'
   s.version          = '0.1.1'
   s.summary          = 'Extension to shuffle arrays.'
   s.swift_version    = '4.2'
