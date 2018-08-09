@@ -16,11 +16,11 @@
 		607FACE51AFB9204008FA782 /* arrShuffler_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arrShuffler_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A438952EF08C6B44DE49EA40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B080567D9C0EFA4306CA6DD3 /* arrShuffler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = arrShuffler.podspec; path = ../arrShuffler.podspec; sourceTree = "<group>"; };
+		A438952EF08C6B44DE49EA40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B080567D9C0EFA4306CA6DD3 /* arrShuffler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = arrShuffler.podspec; path = ../arrShuffler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D8D564DCE143A13BDEAADE49 /* Pods_arrShuffler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_arrShuffler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4642DBFC3CFB3C9366626C /* Pods-arrShuffler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-arrShuffler_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-arrShuffler_Tests/Pods-arrShuffler_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E6EE2D48FAD2CF67DB79C962 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E6EE2D48FAD2CF67DB79C962 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;

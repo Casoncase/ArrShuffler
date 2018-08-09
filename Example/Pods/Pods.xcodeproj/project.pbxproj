@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0E0771C3E9E4053868AC767567A97CCD /* arrShuffler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6550D33BDDEF840CEC99E31E21C1462 /* arrShuffler-dummy.m */; };
-		17927D2E83D80E5D7A35D48FE47B030F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7290B44AD5CB6427C8B4DE74419EC6 /* ReplaceMe.swift */; };
 		67CD5713892E774A9DF566DB26F01984 /* arrShuffler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DE4C02985BB06C21148D4BBD2D71A9 /* arrShuffler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8927BF0D211BE8EB00877D3C /* ArrShuffler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8927BF0C211BE8EB00877D3C /* ArrShuffler.swift */; };
 		93480058B0640DB32559467684AEDA63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		99FF97A507F0240D196806336DF57564 /* Pods-arrShuffler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E58392666825FCB85EFCB7EEAF2D5916 /* Pods-arrShuffler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9C4F9B1B6AD4AE39657743FB361AD01 /* Pods-arrShuffler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F07581718BB4B6357D62C86B6232B53 /* Pods-arrShuffler_Tests-dummy.m */; };
@@ -30,8 +30,8 @@
 		01DE4C02985BB06C21148D4BBD2D71A9 /* arrShuffler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "arrShuffler-umbrella.h"; sourceTree = "<group>"; };
 		0BB6F782028E7DE16DE2205ABBF50B77 /* Pods-arrShuffler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-arrShuffler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		131A3DDD10FFC7522737E522B984DDE7 /* Pods-arrShuffler_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-arrShuffler_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		22A7CBE2E9C31147CDEC93E13384AF17 /* arrShuffler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = arrShuffler.framework; path = arrShuffler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27493BC4DB8F6FB8EB39B458568076B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		22A7CBE2E9C31147CDEC93E13384AF17 /* arrShuffler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = arrShuffler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27493BC4DB8F6FB8EB39B458568076B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		32309B05F123759AF921C27EFFF76125 /* Pods-arrShuffler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-arrShuffler_Tests.modulemap"; sourceTree = "<group>"; };
 		43E9F9EBFD0E4AAA206B9ECEA618B6F6 /* arrShuffler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = arrShuffler.xcconfig; sourceTree = "<group>"; };
 		4F07581718BB4B6357D62C86B6232B53 /* Pods-arrShuffler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-arrShuffler_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -39,12 +39,12 @@
 		54C5AADEA05E9C445D85AC2835437E34 /* Pods-arrShuffler_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-arrShuffler_Tests-resources.sh"; sourceTree = "<group>"; };
 		573415CDADCC3B954AA5EF6E956A05A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5ECCE70A4DBCACB88D6A740EAC0A65BA /* arrShuffler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = arrShuffler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5ECCE70A4DBCACB88D6A740EAC0A65BA /* arrShuffler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = arrShuffler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7FCB62C4FF7255D0374E6EEA9CC9B093 /* arrShuffler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = arrShuffler.modulemap; sourceTree = "<group>"; };
-		872E26A0D41147C901634BD52D1B9004 /* Pods_arrShuffler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_arrShuffler_Tests.framework; path = "Pods-arrShuffler_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C7290B44AD5CB6427C8B4DE74419EC6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = arrShuffler/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D85EC55DDF653140B443E2F25F42D9E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		872E26A0D41147C901634BD52D1B9004 /* Pods_arrShuffler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_arrShuffler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8927BF0C211BE8EB00877D3C /* ArrShuffler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrShuffler.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D85EC55DDF653140B443E2F25F42D9E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A24162535182920C722FD648E17366C4 /* Pods-arrShuffler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-arrShuffler_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A709B20DEED9878EE62E3E957AAC2875 /* Pods-arrShuffler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-arrShuffler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBF2CC70AED4018C86AF2722DD6A80F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 		ADC9BE662F2B242BDF8850F4CF0BE0F4 /* arrShuffler */ = {
 			isa = PBXGroup;
 			children = (
-				8C7290B44AD5CB6427C8B4DE74419EC6 /* ReplaceMe.swift */,
+				8927BF0C211BE8EB00877D3C /* ArrShuffler.swift */,
 				FDEFF5F6CD76220109111A9613F52521 /* Pod */,
 				53874474BB4C242A4BD14C4A3DEA66AF /* Support Files */,
 			);
@@ -243,6 +243,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					8646C6574E0B842206F549C884B8B6D6 = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -275,8 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8927BF0D211BE8EB00877D3C /* ArrShuffler.swift in Sources */,
 				0E0771C3E9E4053868AC767567A97CCD /* arrShuffler-dummy.m in Sources */,
-				17927D2E83D80E5D7A35D48FE47B030F /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43E9F9EBFD0E4AAA206B9ECEA618B6F6 /* arrShuffler.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -364,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43E9F9EBFD0E4AAA206B9ECEA618B6F6 /* arrShuffler.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
